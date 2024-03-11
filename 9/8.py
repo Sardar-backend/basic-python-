@@ -1,0 +1,5 @@
+a=int(input("enter"))
+b=bin(a)
+print(b)
+c=int(b,2)
+print(c)

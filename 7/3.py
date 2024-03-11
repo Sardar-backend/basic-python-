@@ -1,0 +1,9 @@
+a=input("enter")
+b=input("enter")
+w=[]
+w.append(a)
+w.append(b)
+file=open("c.txt","w")
+file.write(str(w))
+file=open("c.txt","r")
+print(file.read())
